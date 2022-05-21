@@ -1,10 +1,11 @@
-import React from "react";
-function Menu() {
+import React, { useState } from "react";
+function Menu({ setState }) {
+  console.log(setState);
   return (
     <div>
       <div className="bg-black font-body">
         <div className="bg-black relative" style={{ color: "rgb(244,241,208)" }}>
-          <button type="button" className="absolute top-3 focus:outline-none z-20">
+          <button onClick={() => setState(false)} type="button" className="absolute top-3 focus:outline-none z-20">
             <div className="fixed right-3">
               <svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path
@@ -217,7 +218,7 @@ function Menu() {
               </div>
               <hr className="mr-20 mb-6"></hr>
               <div className="flex flex-col md:flex-row pr-20 text-base font-body1 pb-6">
-                <span>
+                <button>
                   <svg
                     className="inline mb-5 md:mb-0"
                     width="30px"
@@ -227,7 +228,7 @@ function Menu() {
                   >
                     <path d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"></path>
                   </svg>
-                </span>
+                </button>
                 <span className="underline uppercase md:ml-5 mb-5 md:mb-0">Twitter</span>
                 <span className="underline uppercase md:ml-5 mb-5 md:mb-0">FaceBook</span>
                 <span className="underline uppercase md:ml-5 mb-5 md:mb-0">LinkedIn</span>

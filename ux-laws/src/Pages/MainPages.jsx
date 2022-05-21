@@ -4,12 +4,16 @@ import NavBar from "../Components/NavBar";
 import HomePage from "../Components/HomePage";
 import LawImageContent from "../Components/LawImageContent";
 import Button from "../Components/Button";
+import AestheticImage from "../Components/AestheticImage";
+
 function MainPage() {
   return (
     <div>
-      <NavBar />
+      <AestheticImage/>
+      {/* <NavBar /> */}
 
-      <HomePage />
+      {/* <HomePage /> */}
+     
     </div>
   );
 }
