@@ -3,7 +3,7 @@ function Menu({ setState }) {
   console.log(setState);
   return (
     <div>
-      <div className="bg-black font-body">
+      <div className="bg-black font-body ">
         <div className="bg-black relative" style={{ color: "rgb(244,241,208)" }}>
           <button onClick={() => setState(false)} type="button" className="absolute top-3 focus:outline-none z-20">
             <div className="fixed right-3">
@@ -16,7 +16,7 @@ function Menu({ setState }) {
               </svg>
             </div>
           </button>
-          <div className="py-10 px-5 flex flex-col md:flex-row container mx-auto max-w-screen-lg w-screen relative z-10 overflow-y-scroll">
+          <div className="py-10 px-5 flex flex-col md:flex-row container mx-auto max-w-screen-lg w-screen relative z-10 overflow-y-scroll ">
             <div className="md:w-1/2 mb-20 md:mb-0">
               <ul>
                 <li className="mb-7 mt-3">

@@ -1,14 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./Pages/MainPages";
-import Menu from "./Components/Menu";
+import AestheticPage from "./Pages/AestheticPage";
 
 function App() {
   return (
     <div>
-      <MainPage />
       <BrowserRouter>
         <Routes>
-          <Route path="/menu" element={<Menu />} />
+          <Route path="/" element={<MainPage />} />
+          <Route path="/article/1" element={<AestheticPage />} />
+          {/* <Route path="/article/2" element={<MainPage />} /> */}
         </Routes>
       </BrowserRouter>
     </div>
