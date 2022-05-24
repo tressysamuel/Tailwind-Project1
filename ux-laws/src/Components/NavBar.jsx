@@ -3,15 +3,17 @@ import { Link } from "react-router-dom";
 import Menu from "./Menu";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-function NavBar() {
+function NavBar({className,children}) {
   const [state, setState] = useState(false);
 
   return (
     <div>
-      <nav className="bg-black flex justify-between p-4 uppercase text-white font-medium items-center tracking-widest fixed top-0 w-full text-base">
+      <nav className={` ${className}bg-black flex justify-between p-4 uppercase text-white font-medium items-center tracking-widest fixed top-0 w-full text-base`}>
         <div>
           <h2 className="text-white ">LAWS OF UX</h2>
         </div>
+        {children}
+       
         {state ? <Menu setState={setState} /> : null}
         <button
           onClick={() => setState(true)}

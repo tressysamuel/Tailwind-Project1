@@ -33,7 +33,7 @@ function AestheticContent() {
             testing
           </p>
         </div>
-        <Button text="DOWNLOAD THE POSTER" className="bg-gray-400 font-semibold tracking-widest " />
+        <Button text="DOWNLOAD THE POSTER" className="bg-pink-400 font-semibold tracking-widest " />
         <div className="pb-10 pt-20 max-w-5xl mx-auto">
           <h2 className="mb-8">
             <span class="inline-block w-5 align-middle h-1 bg-gray-200"></span>

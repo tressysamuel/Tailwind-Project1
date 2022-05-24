@@ -8,7 +8,7 @@ function LawImageContent({ text, number }) {
         <hr className="w-1/6 mt-8"></hr>
         <p className="text-xl tracking-widest my-5 font-body1 font-bold text-[#F4F1D0]">{text}</p>
       </div>
-      <Button text="Learn More" />
+      <Button text="Learn More" className="hidden md:block"/>
     </div>
   );
 }

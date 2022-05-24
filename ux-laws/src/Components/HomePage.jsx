@@ -5,14 +5,11 @@ import Menu from "./Menu";
 import LawImageContainer from "./LawImageContainer";
 
 function HomePage() {
-
-
   return (
     //menu//
     <div className="">
-      
       {/* #1 component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6 ">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6 ">
         <LawImageContainer paragraph="Aesthetic Usability Effect" fillingColor="rgb(80,100,133)">
           <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
@@ -29,7 +26,7 @@ function HomePage() {
       </div>
 
       {/* #2 component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6 ">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6 ">
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="02"
@@ -48,7 +45,7 @@ function HomePage() {
 
       {/* #3component */}
 
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContainer paragraph="Fitt's Law" fillingColor="rgb(123,178,77)">
           <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
             <g stroke="#F4F1D0" stroke-width="30" fill="none" fill-rule="evenodd">
@@ -67,7 +64,7 @@ function HomePage() {
 
       {/* #4Component */}
 
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="04"
@@ -124,7 +121,7 @@ function HomePage() {
       </div>
 
       {/* #5Component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContainer paragraph="Hick's Law" fillingColor="rgb(214,194,48)">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 567 563">
             <g fill="none" fill-rule="evenodd" stroke="#F4F1D0" stroke-width="30">
@@ -140,7 +137,7 @@ function HomePage() {
       </div>
 
       {/* #6Component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="06"
@@ -166,7 +163,7 @@ function HomePage() {
       </div>
 
       {/* #7Component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContainer paragraph="Hick's Law" fillingColor="rgb(242,126,172)">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 567 507">
             <path
@@ -195,7 +192,7 @@ function HomePage() {
       </div>
 
       {/* #8Component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="08"
@@ -225,7 +222,7 @@ function HomePage() {
       </div>
 
       {/* #9Component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContainer paragraph="Hick's Law" fillingColor="rgb(128,73,94)">
           <svg viewBox="0 0 566 565" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
@@ -263,7 +260,7 @@ function HomePage() {
         />
       </div>
       {/* #10Component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="10"
@@ -293,7 +290,7 @@ function HomePage() {
       </div>
 
       {/* #11Component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="11"
@@ -356,7 +353,7 @@ function HomePage() {
       </div>
 
       {/* #12Component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContainer paragraph="Hick's Law" fillingColor="rgb(243,94,78)">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565 564">
             <g fill="none" fill-rule="evenodd">
@@ -383,7 +380,7 @@ function HomePage() {
         />
       </div>
       {/* #13Component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="13"
@@ -422,7 +419,7 @@ function HomePage() {
       </div>
 
       {/* #14Component */}
-      <div className="mx-auto px-8 py-24 w-2/4 flex h-4/6">
+      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6">
         <LawImageContainer paragraph="Hick's Law" fillingColor="rgb(190,170,72)">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 598 597">
             <g fill="none" fill-rule="evenodd" transform="rotate(-45 293.76881 309.77343)">
@@ -481,11 +478,8 @@ function HomePage() {
             </g>
           </svg>
         </LawImageContainer>
-        
-      </div> 
-    
+      </div>
     </div>
-    
   );
 }
 
