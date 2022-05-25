@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 
-function AestheticContent() {
+function AestheticContent({heading}) {
   return (
     <div className="mx-auto px-4 text-[#F4F1D0]">
       <div className="py-10 max-w-5xl mx-auto text-[#F4F1D0]">
@@ -10,12 +10,12 @@ function AestheticContent() {
           <span className="ml-1 uppercase tracking-widest text-sm">Overview</span>
         </h2>
         <p className="text-xl leading-6 sm:text-4xl font-bold text-left pr-5">
-          Users Often perceive aesthetically pleasing design as design that's more usable.
+         {heading}
         </p>
       </div>
       <div className="py-10 max-w-5xl mx-auto">
         <h2 className="mb-8">
-          <span class="inline-block w-5 align-middle h-1 bg-gray-200"></span>
+          <span className="inline-block w-5 align-middle h-1 bg-gray-200"></span>
           <span className="ml-1 uppercase tracking-widest text-sm">KEY TAKEAWAY</span>
         </h2>
 
@@ -33,10 +33,10 @@ function AestheticContent() {
             testing
           </p>
         </div>
-        <Button text="DOWNLOAD THE POSTER" className="bg-pink-400 font-semibold tracking-widest " />
+        <Button text="DOWNLOAD THE POSTER" className="bg-red-400 font-semibold tracking-widest " />
         <div className="pb-10 pt-20 max-w-5xl mx-auto">
           <h2 className="mb-8">
-            <span class="inline-block w-5 align-middle h-1 bg-gray-200"></span>
+            <span className="inline-block w-5 align-middle h-1 bg-gray-200"></span>
             <span className="ml-1 uppercase tracking-widest text-sm">Origins</span>
           </h2>
           <div className="leading-8 text-left text-xl font-medium">
@@ -54,7 +54,7 @@ function AestheticContent() {
         </div>
         <div className="pb-10 pt-20 max-w-5xl mx-auto">
           <h2 className="mb-8">
-            <span class="inline-block w-5 align-middle h-1 bg-gray-200"></span>
+            <span className="inline-block w-5 align-middle h-1 bg-gray-200"></span>
             <span className="ml-1 uppercase tracking-widest text-sm">further reading</span>
           </h2>
           <div className="mb-20 leading-8 text-left text-xl font-medium">

@@ -1,15 +1,22 @@
 import React from "react";
+import NavBar from "../Components/NavBar";
 import AestheticImage from "../Components/AestheticImage";
 import AestheticContent from "../Components/AestheticContent";
 import AestheticPageEnd from "../Components/AestheticPageEnd";
-import NavBar from "../Components/NavBar";
+
 import { Link } from "react-router-dom";
 
-function DohertyPage() {
+function FittsLaw() {
   return (
     <div>
-      <NavBar className="md:flex hidden" prev="/article/1" next="/article/3"></NavBar>
-      <AestheticImage className="py-28  bg-pink-500" text="Doherty Threshold" number="02/20" fillingColor="rgb(236 72 153)">
+      <NavBar className="md:flex hidden" ></NavBar>
+         {/* <div className="uppercase md:block hidden ">
+          <Link to="/article/1">Prev</Link>
+          <span className="inline-block w-10 align-middle h-1 bg-gray-200"></span>
+          <Link to="/article/3">Next</Link>
+        </div>  */}
+     
+      <AestheticImage className="py-28  bg-emerald-500" text="Doherty Threshold" number="03/20" fillingColor="rgb(16 185 129)">
         <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fill-rule="evenodd">
             <circle fill-opacity=".15" fill="#000" cx="282.882" cy="282.882" r="282.882"></circle>
@@ -19,10 +26,10 @@ function DohertyPage() {
           </g>
         </svg>
       </AestheticImage>
-      <AestheticContent heading="Productivity soars when a computer and its users interact" />
-      <AestheticPageEnd title="Next" subTitle="Fitt's law" color="bg-emerald-500" />
+      <AestheticContent />
+      <AestheticPageEnd title="Next" subTitle="Fitt's law" color="bg-cyan-500"/>
     </div>
   );
 }
 
-export default DohertyPage;
+export default FittsLaw;

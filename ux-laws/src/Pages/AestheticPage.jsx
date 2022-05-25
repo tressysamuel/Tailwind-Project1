@@ -10,14 +10,8 @@ import { Link } from "react-router-dom";
 function AestheticPage() {
   return (
     <div>
-      <NavBar className="bg-red/600">
-        <div className="uppercase md:block hidden ">
-          <Link to="/article/1">Prev</Link>
-          <span className="inline-block w-10 align-middle h-1 bg-gray-200"></span>
-          <Link to="/article/2">Next</Link>
-        </div>
-      </NavBar>
-      <AestheticImage text="Aesthetic Usability Effect" number="01/20" fillingColor="rgb(80,100,133)">
+      <NavBar className="md:flex hidden" prev="/" next="/article/2"></NavBar>
+      <AestheticImage text="Aesthetic Usability Effect" number="01/20" className="bg-gray-700" fillingColor="rgb(55 65 81)">
         <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fill-rule="evenodd">
             <circle fill-opacity=".15" fill="#000" cx="282.882" cy="282.882" r="282.882"></circle>
@@ -27,8 +21,8 @@ function AestheticPage() {
         </svg>
       </AestheticImage>
 
-      <AestheticContent />
-      <AestheticPageEnd title="Next" subTitle="Doherty Threshold" className="bg-pink-500" />
+      <AestheticContent heading=" Users Often perceive aesthetically pleasing design as design that's more usable." />
+      <AestheticPageEnd title="Next" subTitle="Doherty Threshold" color="bg-pink-500" />
     </div>
   );
 }

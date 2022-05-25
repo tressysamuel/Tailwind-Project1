@@ -2,7 +2,7 @@ import React from "react";
 
 function AestheticImage({ text, number, children, fillingColor, className }) {
   return (
-    <div className={`${className} pb-5 bg-slate-600 `}>
+    <div className={`${className} pb-16`}>
       <div className="mx-auto px-4  ">
         <div className="flex mx-auto max-w-3xl items-center flex-wrap" style={{ color: "rgb(24,241,208)" }}>
           <div className="flex-1 md:mr-20 pl-20 text-[#F4F1D0]">
