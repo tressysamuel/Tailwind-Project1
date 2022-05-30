@@ -17,7 +17,7 @@ function LawImageContainer({ paragraph, children, fillingColor }) {
             clip-rule="evenodd"
           ></path>
         </svg>
-        <p className=" sm:min-w-1/3 pr-19 p-5 text-3xl text-black">{paragraph}</p>
+        <p className=" sm:min-w-1/3  pr-19 p-5 text-4xl  font-bold text-black">{paragraph}</p>
       </div>
 
       <div

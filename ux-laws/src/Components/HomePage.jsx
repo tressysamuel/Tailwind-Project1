@@ -22,14 +22,17 @@ function HomePage() {
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="01"
+          link="/article/1"
         />
       </div>
 
       {/* #2 component */}
       <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6 ">
         <LawImageContent
-          text="Users often perceive aesthetically pleasing design as design that's more usable"
+          text=" Productivity soars when a computer and its users interact at a pace (<400ms) that ensures that neither has to wait on the other."
+          
           number="02"
+          link="/article/2"
         />
         <LawImageContainer paragraph="Doherty thershold" fillingColor="rgb(196,81,157)">
           <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
@@ -59,6 +62,7 @@ function HomePage() {
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="03"
+          link="/article/3"
         />
       </div>
 
@@ -68,6 +72,7 @@ function HomePage() {
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="04"
+          link="/article/4"
         />
         <LawImageContainer paragraph="Hick's Law" fillingColor="rgb(72,151,190)">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565 564">
@@ -133,6 +138,7 @@ function HomePage() {
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="05"
+          link="/article/5"
         />
       </div>
 
@@ -141,6 +147,7 @@ function HomePage() {
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="06"
+           link="/article/2"
         />
         <LawImageContainer paragraph="Hick's Law" fillingColor="rgb(73,164,109)">
           <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">

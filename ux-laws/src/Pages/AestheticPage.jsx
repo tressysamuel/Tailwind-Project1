@@ -11,7 +11,12 @@ function AestheticPage() {
   return (
     <div>
       <NavBar className="md:flex hidden" prev="/" next="/article/2"></NavBar>
-      <AestheticImage text="Aesthetic Usability Effect" number="01/20" className="bg-gray-700" fillingColor="rgb(55 65 81)">
+      <AestheticImage
+        text="Aesthetic Usability Effect"
+        number="01/20"
+        className=" py-28 bg-gray-700"
+        fillingColor="rgb(55 65 81)"
+      >
         <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fill-rule="evenodd">
             <circle fill-opacity=".15" fill="#000" cx="282.882" cy="282.882" r="282.882"></circle>
@@ -21,8 +26,13 @@ function AestheticPage() {
         </svg>
       </AestheticImage>
 
-      <AestheticContent heading=" Users Often perceive aesthetically pleasing design as design that's more usable." />
-      <AestheticPageEnd title="Next" subTitle="Doherty Threshold" color="bg-pink-500" />
+      <AestheticContent
+        
+        buttonBg="bg-gray-700"
+        heading=" Users Often perceive aesthetically pleasing design as design that's more usable."
+      />
+
+      <AestheticPageEnd title="Next" subTitle="Doherty Threshold" redirect="/article/2" color="bg-pink-500"/>
     </div>
   );
 }

@@ -12,7 +12,7 @@ function NavBar({ className, showNav = true, next = "", prev = "" }) {
           !showNav && "bg-black"
         } justify-between  p-4 uppercase text-white font-medium items-center tracking-widest fixed top-0 w-full text-base`}
       >
-        {!state && <h2 className="text-white md:block">LAWS OF UX</h2>}
+       <Link to="/">{!state && <h2 className="text-white md:block">LAWS OF UX</h2>}</Link> 
         {showNav && !state && (
           <div className="uppercase md:block ">
             <Link to={prev}>Prev</Link>
@@ -20,6 +20,7 @@ function NavBar({ className, showNav = true, next = "", prev = "" }) {
             <Link to={next}>Next</Link>
           </div>
         )}
+         {state && <Menu setState={setState} />}
         <button
           onClick={() => setState(true)}
           type="button"
@@ -28,7 +29,7 @@ function NavBar({ className, showNav = true, next = "", prev = "" }) {
           <span className="mr-2">MENU</span>
         </button>
       </nav>
-      {state && <Menu setState={setState} />}
+     
     </div>
   );
 }

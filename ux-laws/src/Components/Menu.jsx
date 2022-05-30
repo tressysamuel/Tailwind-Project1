@@ -181,7 +181,7 @@ function Menu({ setState }) {
                 </li>
               </ul>
             </div>
-            <div className="md:w-1/2">
+            <div className=" capitalize md:w-1/2">
               <div className="pr-10 md:pr-20">
                 <h1 className="text-1xl  mb-2">Overview</h1>
                 <p className="mb-6 text-sm font-body1">
@@ -190,7 +190,7 @@ function Menu({ setState }) {
                 </p>
               </div>
               <div className="pr-10 md:pr-20">
-                <h1 className="text-3xl font-bold mb-2">The Book</h1>
+                <h1 className="text-2xl font-bold mb-2">The Book</h1>
                 <p className="mb-6 text-sm font-body1">
                   An expansion of the ideas found on this site is now available in book form,titled Law of UX:using
                   Psychology to Design Better Products and Service.Translated editions of the book are available in German
@@ -198,7 +198,7 @@ function Menu({ setState }) {
                 </p>
               </div>
               <div className="pr-10 md:pr-20">
-                <h1 className="text-3xl font-bold mb-2">Posters</h1>
+                <h1 className="text-2xl font-bold mb-2">Posters</h1>
                 <p className="mb-6 text-sm font-body1">
                   An expansion of the ideas found on this site is now available in book form,titled{" "}
                   <u>Law of UX:using Psychology to Design Better Products and Service</u>.Translated editions of the book
@@ -206,7 +206,7 @@ function Menu({ setState }) {
                 </p>
               </div>
               <div className="pr-10 md:pr-20">
-                <h1 className="text-3xl font-bold mb-2">Colophon</h1>
+                <h1 className="text-2xl font-bold mb-2">Colophon</h1>
                 <p className="mb-6 text-sm font-body1">
                   An expansion of the ideas found on this site is now available in book form,titled Law of UX:using
                   Psychology to Design Better Products and Service.Translated editions of the book are available in German
