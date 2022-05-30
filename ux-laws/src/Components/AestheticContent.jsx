@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../Components/Button";
 
-function AestheticContent({heading}) {
+function AestheticContent({ heading, buttonBg }) {
   return (
     <div className="mx-auto px-4 text-[#F4F1D0]">
       <div className="py-10 max-w-5xl mx-auto text-[#F4F1D0]">
@@ -9,9 +9,7 @@ function AestheticContent({heading}) {
           <span className="inline-block w-5 align-middle h-1 bg-gray-200"></span>
           <span className="ml-1 uppercase tracking-widest text-sm">Overview</span>
         </h2>
-        <p className="text-xl leading-6 sm:text-4xl font-bold text-left pr-5">
-         {heading}
-        </p>
+        <p className="text-xl leading-6 sm:text-4xl font-bold text-left pr-5">{heading}</p>
       </div>
       <div className="py-10 max-w-5xl mx-auto">
         <h2 className="mb-8">
@@ -33,7 +31,8 @@ function AestheticContent({heading}) {
             testing
           </p>
         </div>
-        <Button text="DOWNLOAD THE POSTER" className="bg-red-400 font-semibold tracking-widest " />
+        <Button text="DOWNLOAD THE POSTER" className={`font-semibold tracking-widest ${buttonBg}`} />
+
         <div className="pb-10 pt-20 max-w-5xl mx-auto">
           <h2 className="mb-8">
             <span className="inline-block w-5 align-middle h-1 bg-gray-200"></span>
@@ -67,13 +66,14 @@ function AestheticContent({heading}) {
               </li>
               <li className="mb-10">
                 <h2 className="font-bold text-4xl mb-2">
-                  <u>The Aesthetic-Usability Effect</u>
+                  <u> Aesthetic-Usability Effect</u>
                 </h2>
                 <p>Kate Moran | Nielsen Norman Group</p>
               </li>
               <li className="mb-10">
                 <h2 className="font-bold text-4xl mb-2">
-                  <u>The Aesthetic-Usability Effect</u>
+                  <u>The Aesthetic-Usability Effect:Why beauitiful-looking</u>
+                  <u>products are preferred over usable-but-not beautiful ones.</u>
                 </h2>
                 <p>Kate Moran | Nielsen Norman Group</p>
               </li>

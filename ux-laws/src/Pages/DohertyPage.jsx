@@ -19,8 +19,8 @@ function DohertyPage() {
           </g>
         </svg>
       </AestheticImage>
-      <AestheticContent heading="Productivity soars when a computer and its users interact" />
-      <AestheticPageEnd title="Next" subTitle="Fitt's law" color="bg-emerald-500" />
+      <AestheticContent buttonBg="bg-pink-500" heading="Productivity soars when a computer and its users interact" />
+      <AestheticPageEnd title="Next" subTitle="Fitt's law" redirect="/article/3" color="bg-emerald-500"  />
     </div>
   );
 }
