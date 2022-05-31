@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import {Link} from "react-router-dom";
 function Menu({ setState }) {
- 
   return (
     <div>
       <div className="bg-black font-body 2xl:w-[100vw] ">
@@ -22,39 +22,48 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">01</div>
-                    <div className="text-1xl inline-block ml-7 hover:text-white pr-10 md: text-left">
+                    <Link to ="/article/1">
+                    <div className="text-2xl inline-block ml-7 hover:text-white pr-10 md: text-left">
+                     
                       Aesthetic Usability Effect
                     </div>
+                    </Link>
                   </button>
                 </li>
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">02</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <Link to ="/article/2">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Doherty Threshold
                     </div>
+                    </Link>
                   </button>
                 </li>
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">03</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <Link to ="/article/3">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Fitt's Law
                     </div>
+                    </Link>
                   </button>
                 </li>
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">04</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <Link to ="/article/3">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Hick's law
                     </div>
+                    </Link>
                   </button>
                 </li>
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">05</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Jakob's Law
                     </div>
                   </button>
@@ -62,7 +71,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">06</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Law of Common Region
                     </div>
                   </button>
@@ -70,7 +79,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">07</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Law of Pragnanz
                     </div>
                   </button>
@@ -78,7 +87,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">08</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Law of Proximity
                     </div>
                   </button>
@@ -86,7 +95,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">09</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Law of similarity
                     </div>
                   </button>
@@ -94,7 +103,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">10</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Law of Uniform Connectedness
                     </div>
                   </button>
@@ -102,7 +111,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">11</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Millers Law
                     </div>
                   </button>
@@ -110,7 +119,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">12</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       OCCan's Razor
                     </div>
                   </button>
@@ -118,7 +127,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">13</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Pareto Principle
                     </div>
                   </button>
@@ -126,7 +135,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">14</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Parkinson's Law
                     </div>
                   </button>
@@ -134,7 +143,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">15</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Peak-End Rule
                     </div>
                   </button>
@@ -142,7 +151,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">16</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Postel's Law
                     </div>
                   </button>
@@ -150,7 +159,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">17</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Peak-End Rule
                     </div>
                   </button>
@@ -158,7 +167,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">18</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Postel's Law
                     </div>
                   </button>
@@ -166,7 +175,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">19</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Serial Position Effect
                     </div>
                   </button>
@@ -174,7 +183,7 @@ function Menu({ setState }) {
                 <li className="mb-7 mt-3">
                   <button type="button" className="flex items-center">
                     <div className="inline-block text-sm font-body1 text-gray-300">20</div>
-                    <div className="text-1xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
+                    <div className="text-2xl font-bold inline-block ml-7 hover:text-white pr-10 md:pr-20 text-left">
                       Tesler's Law
                     </div>
                   </button>
@@ -183,22 +192,22 @@ function Menu({ setState }) {
             </div>
             <div className=" capitalize md:w-1/2">
               <div className="pr-10 md:pr-20">
-                <h1 className="text-1xl  mb-2">Overview</h1>
+                <h1 className="text-2xl font-bold mb-2">Overview</h1>
                 <p className="mb-6 text-sm font-body1">
                   Laws of UX is a collection of the maxims and principle that designers can consider when building user
                   interface.It was created by Jon Yablonski
                 </p>
               </div>
               <div className="pr-10 md:pr-20">
-                <h1 className="text-2xl font-bold mb-2">The Book</h1>
+                <h1 className="text-3xl font-bold mb-2">The Book</h1>
                 <p className="mb-6 text-sm font-body1">
-                  An expansion of the ideas found on this site is now available in book form,titled Law of UX:using
-                  Psychology to Design Better Products and Service.Translated editions of the book are available in German
+                  An expansion of the ideas found on this site is now available in book form,<u>titled Law of UX:using
+                  Psychology to Design Better Products and Service.</u>Translated editions of the book are available in German
                   and Korean
                 </p>
               </div>
               <div className="pr-10 md:pr-20">
-                <h1 className="text-2xl font-bold mb-2">Posters</h1>
+                <h1 className="text-3xl font-bold mb-2">Posters</h1>
                 <p className="mb-6 text-sm font-body1">
                   An expansion of the ideas found on this site is now available in book form,titled{" "}
                   <u>Law of UX:using Psychology to Design Better Products and Service</u>.Translated editions of the book
@@ -206,7 +215,7 @@ function Menu({ setState }) {
                 </p>
               </div>
               <div className="pr-10 md:pr-20">
-                <h1 className="text-2xl font-bold mb-2">Colophon</h1>
+                <h1 className="text-3xl font-bold mb-2">Colophon</h1>
                 <p className="mb-6 text-sm font-body1">
                   An expansion of the ideas found on this site is now available in book form,titled Law of UX:using
                   Psychology to Design Better Products and Service.Translated editions of the book are available in German

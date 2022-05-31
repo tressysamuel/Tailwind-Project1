@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Link } from "react-router-dom";
 
 function AestheticPageEnd({ title, subTitle, color,redirect= "" }) {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[]);
+  
   return (
     <div className={`${color}`}>
       <div className="mx-auto px-4">

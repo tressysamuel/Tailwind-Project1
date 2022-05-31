@@ -3,7 +3,7 @@ import React from "react";
 function LawImageContainer({ paragraph, children, fillingColor }) {
   return (
     <div className="md:w-3/4">
-      <div className=" ml-55 p-10 text-white flex-1  flex flex-col justify-between bg-white ">
+      <div className=" ml-55 pl-1 pb-16 text-white flex-1  flex flex-col justify-between bg-white ">
         <svg
           className="pb-4 text-black"
           width="30px"
@@ -17,7 +17,7 @@ function LawImageContainer({ paragraph, children, fillingColor }) {
             clip-rule="evenodd"
           ></path>
         </svg>
-        <p className=" sm:min-w-1/3  pr-19 p-5 text-4xl  font-bold text-black">{paragraph}</p>
+        <p className=" sm:min-w-1/3 text-4xl mt-10 font-bold text-black">{paragraph}</p>
       </div>
 
       <div

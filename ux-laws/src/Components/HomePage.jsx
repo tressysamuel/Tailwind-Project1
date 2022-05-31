@@ -9,7 +9,7 @@ function HomePage() {
     //menu//
     <div className="">
       {/* #1 component */}
-      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6 ">
+      <div className="mx-auto px-8 py-24 2xl:w-2/4 md:flex block h-4/6 ">
         <LawImageContainer paragraph="Aesthetic Usability Effect" fillingColor="rgb(80,100,133)">
           <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
@@ -27,10 +27,9 @@ function HomePage() {
       </div>
 
       {/* #2 component */}
-      <div className="mx-auto px-8 py-24 md:w-2/4 flex h-4/6 ">
+      <div className="mx-auto px-8 py-24 2xl:w-2/4 md:flex block h-4/6  ">
         <LawImageContent
           text=" Productivity soars when a computer and its users interact at a pace (<400ms) that ensures that neither has to wait on the other."
-          
           number="02"
           link="/article/2"
         />
@@ -147,7 +146,7 @@ function HomePage() {
         <LawImageContent
           text="Users often perceive aesthetically pleasing design as design that's more usable"
           number="06"
-           link="/article/2"
+          link="/article/2"
         />
         <LawImageContainer paragraph="Hick's Law" fillingColor="rgb(73,164,109)">
           <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">

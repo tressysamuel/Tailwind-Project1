@@ -4,7 +4,6 @@ import AestheticContent from "../Components/AestheticContent";
 import AestheticPageEnd from "../Components/AestheticPageEnd";
 import NavBar from "../Components/NavBar";
 
-import { Link } from "react-router-dom";
 
 function JakobsLaw() {
   return (
@@ -23,7 +22,7 @@ function JakobsLaw() {
         </svg>
       </AestheticImage>
       <AestheticContent buttonBg="bg-yellow-400" heading="Productivity soars when a computer and its users interact" />
-      <AestheticPageEnd title="Next" subTitle="Fitt's law" color="bg-emerald-500" />
+      <AestheticPageEnd title="Next" subTitle="Law of Common Region" color="bg-emerald-500" />
     </div>
   );
 }

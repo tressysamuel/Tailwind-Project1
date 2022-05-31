@@ -4,7 +4,7 @@ import AestheticImage from "../Components/AestheticImage";
 import AestheticContent from "../Components/AestheticContent";
 import AestheticPageEnd from "../Components/AestheticPageEnd";
 
-import { Link } from "react-router-dom";
+
 
 function FittsLaw() {
   return (
@@ -23,7 +23,7 @@ function FittsLaw() {
         </svg>
       </AestheticImage>
       <AestheticContent buttonBg="bg-emerald-500" />
-      <AestheticPageEnd title="Next" subTitle="Fitt's law" redirect="/article/4" color="bg-cyan-500"/>
+      <AestheticPageEnd title="Next" subTitle="Hick's Law" redirect="/article/4" color="bg-cyan-500"/>
     </div>
   );
 }
